@@ -1,0 +1,24 @@
+# Deep Learning & Numerical Computation
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Geospatial & Earth Engine
+earthengine-api>=0.1.370
+rasterio>=1.3.0
+geopandas>=0.13.0
+shapely>=2.0.0
+
+# Web Application & GIS UI
+streamlit>=1.28.0
+plotly>=5.15.0
+folium>=0.14.0
+streamlit-folium>=0.13.0
+
+# Utilities & Visualization
+Pillow>=9.5.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+psutil>=5.9.0

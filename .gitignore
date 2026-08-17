@@ -1,0 +1,64 @@
+# ==========================================
+# Python & Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# ==========================================
+# Jupyter & IDEs
+# ==========================================
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Large Datasets & Raw Satellite Imagery
+# ==========================================
+# Ignore raw patch exports (5,001 folders x 12 TIFs = ~8.6 GB)
+exports/patches/
+exports/**/*.tif
+exports/**/*.tiff
+
+# Ignore memory-mapped array caches (~678 MB)
+exports/cache/*.npy
+exports/cache/*.npz
+
+# (Optional) Keep GeoJSON and CSV splits/labels tracked
+!exports/patch_grid_filtered.geojson
+!exports/patch_labels.csv
+!exports/splits/*.csv
+
+# ==========================================
+# Model Weights & Large Binaries (~138 MB each)
+# ==========================================
+models/**/*.pth
+models/**/*.pt
+models/**/*.onnx
+models/**/*.bin
+
+# (Optional) Allow small evaluation metrics/logs in models/
+!models/**/metrics.json
+!models/**/training_history.csv
+!models/**/test_evaluation/
+
+# ==========================================
+# Inference Outputs & Temporary Files
+# ==========================================
+outputs/gradcam/
+outputs/batch_*
+*.log
+run_01_log.txt
+run_01_err.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
