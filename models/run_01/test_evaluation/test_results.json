@@ -1,0 +1,1626 @@
+{
+  "model_checkpoint": "D:\\Deforestation Early Warning\\models\\run_01\\best_model.pth",
+  "checkpoint_epoch": 27,
+  "best_val_f1": 0.8634590377113134,
+  "test_samples": 502,
+  "metrics_at_05": {
+    "accuracy": 0.7609561752988048,
+    "balanced_accuracy": 0.6502306022788931,
+    "precision": 0.8401015228426396,
+    "recall": 0.8530927835051546,
+    "f1": 0.8465473145780051,
+    "mcc": 0.3063350594597153,
+    "roc_auc": 0.773365436787846,
+    "pr_auc": 0.9124671040056574,
+    "threshold": 0.5
+  },
+  "confusion_matrix_05": [
+    [
+      51,
+      63
+    ],
+    [
+      57,
+      331
+    ]
+  ],
+  "metrics_at_best_threshold": {
+    "accuracy": 0.7768924302788844,
+    "balanced_accuracy": 0.641956049918611,
+    "precision": 0.8333333333333334,
+    "recall": 0.8891752577319587,
+    "f1": 0.8603491271820449,
+    "mcc": 0.3128316487732562,
+    "roc_auc": 0.773365436787846,
+    "pr_auc": 0.9124671040056574,
+    "threshold": 0.1
+  },
+  "confusion_matrix_best": [
+    [
+      45,
+      69
+    ],
+    [
+      43,
+      345
+    ]
+  ],
+  "best_threshold": 0.1,
+  "threshold_analysis": [
+    {
+      "threshold": 0.1,
+      "f1": 0.8603491271820449,
+      "precision": 0.8333333333333334,
+      "recall": 0.8891752577319587
+    },
+    {
+      "threshold": 0.11,
+      "f1": 0.8575,
+      "precision": 0.8325242718446602,
+      "recall": 0.884020618556701
+    },
+    {
+      "threshold": 0.12,
+      "f1": 0.8585732165206508,
+      "precision": 0.8345498783454988,
+      "recall": 0.884020618556701
+    },
+    {
+      "threshold": 0.13,
+      "f1": 0.8596491228070176,
+      "precision": 0.8365853658536585,
+      "recall": 0.884020618556701
+    },
+    {
+      "threshold": 0.14,
+      "f1": 0.8596491228070176,
+      "precision": 0.8365853658536585,
+      "recall": 0.884020618556701
+    },
+    {
+      "threshold": 0.15,
+      "f1": 0.8596491228070176,
+      "precision": 0.8365853658536585,
+      "recall": 0.884020618556701
+    },
+    {
+      "threshold": 0.16,
+      "f1": 0.8596491228070176,
+      "precision": 0.8365853658536585,
+      "recall": 0.884020618556701
+    },
+    {
+      "threshold": 0.17,
+      "f1": 0.8582183186951067,
+      "precision": 0.8361858190709046,
+      "recall": 0.8814432989690721
+    },
+    {
+      "threshold": 0.18,
+      "f1": 0.8582183186951067,
+      "precision": 0.8361858190709046,
+      "recall": 0.8814432989690721
+    },
+    {
+      "threshold": 0.19,
+      "f1": 0.8567839195979899,
+      "precision": 0.8357843137254902,
+      "recall": 0.8788659793814433
+    },
+    {
+      "threshold": 0.2,
+      "f1": 0.8567839195979899,
+      "precision": 0.8357843137254902,
+      "recall": 0.8788659793814433
+    },
+    {
+      "threshold": 0.21,
+      "f1": 0.8567839195979899,
+      "precision": 0.8357843137254902,
+      "recall": 0.8788659793814433
+    },
+    {
+      "threshold": 0.22,
+      "f1": 0.853904282115869,
+      "precision": 0.8349753694581281,
+      "recall": 0.8737113402061856
+    },
+    {
+      "threshold": 0.23,
+      "f1": 0.8524590163934426,
+      "precision": 0.8345679012345679,
+      "recall": 0.8711340206185567
+    },
+    {
+      "threshold": 0.24,
+      "f1": 0.8524590163934426,
+      "precision": 0.8345679012345679,
+      "recall": 0.8711340206185567
+    },
+    {
+      "threshold": 0.25,
+      "f1": 0.851010101010101,
+      "precision": 0.8341584158415841,
+      "recall": 0.8685567010309279
+    },
+    {
+      "threshold": 0.26,
+      "f1": 0.851010101010101,
+      "precision": 0.8341584158415841,
+      "recall": 0.8685567010309279
+    },
+    {
+      "threshold": 0.27,
+      "f1": 0.851010101010101,
+      "precision": 0.8341584158415841,
+      "recall": 0.8685567010309279
+    },
+    {
+      "threshold": 0.28,
+      "f1": 0.851010101010101,
+      "precision": 0.8341584158415841,
+      "recall": 0.8685567010309279
+    },
+    {
+      "threshold": 0.29,
+      "f1": 0.851010101010101,
+      "precision": 0.8341584158415841,
+      "recall": 0.8685567010309279
+    },
+    {
+      "threshold": 0.3,
+      "f1": 0.8481012658227848,
+      "precision": 0.8333333333333334,
+      "recall": 0.8634020618556701
+    },
+    {
+      "threshold": 0.31,
+      "f1": 0.8481012658227848,
+      "precision": 0.8333333333333334,
+      "recall": 0.8634020618556701
+    },
+    {
+      "threshold": 0.32,
+      "f1": 0.8481012658227848,
+      "precision": 0.8333333333333334,
+      "recall": 0.8634020618556701
+    },
+    {
+      "threshold": 0.33,
+      "f1": 0.8481012658227848,
+      "precision": 0.8333333333333334,
+      "recall": 0.8634020618556701
+    },
+    {
+      "threshold": 0.34,
+      "f1": 0.8481012658227848,
+      "precision": 0.8333333333333334,
+      "recall": 0.8634020618556701
+    },
+    {
+      "threshold": 0.35,
+      "f1": 0.8451776649746193,
+      "precision": 0.8325,
+      "recall": 0.8582474226804123
+    },
+    {
+      "threshold": 0.36,
+      "f1": 0.843710292249047,
+      "precision": 0.8320802005012531,
+      "recall": 0.8556701030927835
+    },
+    {
+      "threshold": 0.37,
+      "f1": 0.843710292249047,
+      "precision": 0.8320802005012531,
+      "recall": 0.8556701030927835
+    },
+    {
+      "threshold": 0.38,
+      "f1": 0.843710292249047,
+      "precision": 0.8320802005012531,
+      "recall": 0.8556701030927835
+    },
+    {
+      "threshold": 0.39,
+      "f1": 0.8447837150127226,
+      "precision": 0.8341708542713567,
+      "recall": 0.8556701030927835
+    },
+    {
+      "threshold": 0.4,
+      "f1": 0.8447837150127226,
+      "precision": 0.8341708542713567,
+      "recall": 0.8556701030927835
+    },
+    {
+      "threshold": 0.41,
+      "f1": 0.8447837150127226,
+      "precision": 0.8341708542713567,
+      "recall": 0.8556701030927835
+    },
+    {
+      "threshold": 0.42,
+      "f1": 0.8447837150127226,
+      "precision": 0.8341708542713567,
+      "recall": 0.8556701030927835
+    },
+    {
+      "threshold": 0.43,
+      "f1": 0.8447837150127226,
+      "precision": 0.8341708542713567,
+      "recall": 0.8556701030927835
+    },
+    {
+      "threshold": 0.44,
+      "f1": 0.8447837150127226,
+      "precision": 0.8341708542713567,
+      "recall": 0.8556701030927835
+    },
+    {
+      "threshold": 0.45,
+      "f1": 0.845859872611465,
+      "precision": 0.836272040302267,
+      "recall": 0.8556701030927835
+    },
+    {
+      "threshold": 0.46,
+      "f1": 0.8465473145780051,
+      "precision": 0.8401015228426396,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.47,
+      "f1": 0.8465473145780051,
+      "precision": 0.8401015228426396,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.48,
+      "f1": 0.8465473145780051,
+      "precision": 0.8401015228426396,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.49,
+      "f1": 0.8465473145780051,
+      "precision": 0.8401015228426396,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.8465473145780051,
+      "precision": 0.8401015228426396,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.51,
+      "f1": 0.8465473145780051,
+      "precision": 0.8401015228426396,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.52,
+      "f1": 0.8465473145780051,
+      "precision": 0.8401015228426396,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.53,
+      "f1": 0.8465473145780051,
+      "precision": 0.8401015228426396,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.54,
+      "f1": 0.8465473145780051,
+      "precision": 0.8401015228426396,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.55,
+      "f1": 0.8465473145780051,
+      "precision": 0.8401015228426396,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.56,
+      "f1": 0.8476312419974392,
+      "precision": 0.8422391857506362,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.57,
+      "f1": 0.8476312419974392,
+      "precision": 0.8422391857506362,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.58,
+      "f1": 0.8476312419974392,
+      "precision": 0.8422391857506362,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.59,
+      "f1": 0.8487179487179487,
+      "precision": 0.8443877551020408,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.6,
+      "f1": 0.8487179487179487,
+      "precision": 0.8443877551020408,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.61,
+      "f1": 0.8498074454428755,
+      "precision": 0.8465473145780051,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.62,
+      "f1": 0.8508997429305912,
+      "precision": 0.8487179487179487,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.63,
+      "f1": 0.8508997429305912,
+      "precision": 0.8487179487179487,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.64,
+      "f1": 0.8508997429305912,
+      "precision": 0.8487179487179487,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.65,
+      "f1": 0.851994851994852,
+      "precision": 0.8508997429305912,
+      "recall": 0.8530927835051546
+    },
+    {
+      "threshold": 0.66,
+      "f1": 0.8505154639175257,
+      "precision": 0.8505154639175257,
+      "recall": 0.8505154639175257
+    },
+    {
+      "threshold": 0.67,
+      "f1": 0.8505154639175257,
+      "precision": 0.8505154639175257,
+      "recall": 0.8505154639175257
+    },
+    {
+      "threshold": 0.68,
+      "f1": 0.8516129032258064,
+      "precision": 0.8527131782945736,
+      "recall": 0.8505154639175257
+    },
+    {
+      "threshold": 0.69,
+      "f1": 0.8516129032258064,
+      "precision": 0.8527131782945736,
+      "recall": 0.8505154639175257
+    },
+    {
+      "threshold": 0.7,
+      "f1": 0.8516129032258064,
+      "precision": 0.8527131782945736,
+      "recall": 0.8505154639175257
+    },
+    {
+      "threshold": 0.71,
+      "f1": 0.8516129032258064,
+      "precision": 0.8527131782945736,
+      "recall": 0.8505154639175257
+    },
+    {
+      "threshold": 0.72,
+      "f1": 0.8516129032258064,
+      "precision": 0.8527131782945736,
+      "recall": 0.8505154639175257
+    },
+    {
+      "threshold": 0.73,
+      "f1": 0.8516129032258064,
+      "precision": 0.8527131782945736,
+      "recall": 0.8505154639175257
+    },
+    {
+      "threshold": 0.74,
+      "f1": 0.8516129032258064,
+      "precision": 0.8527131782945736,
+      "recall": 0.8505154639175257
+    },
+    {
+      "threshold": 0.75,
+      "f1": 0.8497409326424871,
+      "precision": 0.8541666666666666,
+      "recall": 0.845360824742268
+    },
+    {
+      "threshold": 0.76,
+      "f1": 0.8508430609597925,
+      "precision": 0.856396866840731,
+      "recall": 0.845360824742268
+    },
+    {
+      "threshold": 0.77,
+      "f1": 0.8508430609597925,
+      "precision": 0.856396866840731,
+      "recall": 0.845360824742268
+    },
+    {
+      "threshold": 0.78,
+      "f1": 0.8508430609597925,
+      "precision": 0.856396866840731,
+      "recall": 0.845360824742268
+    },
+    {
+      "threshold": 0.79,
+      "f1": 0.8493506493506493,
+      "precision": 0.856020942408377,
+      "recall": 0.8427835051546392
+    },
+    {
+      "threshold": 0.8,
+      "f1": 0.8493506493506493,
+      "precision": 0.856020942408377,
+      "recall": 0.8427835051546392
+    },
+    {
+      "threshold": 0.81,
+      "f1": 0.8478543563068921,
+      "precision": 0.8556430446194225,
+      "recall": 0.8402061855670103
+    },
+    {
+      "threshold": 0.82,
+      "f1": 0.8478543563068921,
+      "precision": 0.8556430446194225,
+      "recall": 0.8402061855670103
+    },
+    {
+      "threshold": 0.83,
+      "f1": 0.8485639686684073,
+      "precision": 0.8597883597883598,
+      "recall": 0.8376288659793815
+    },
+    {
+      "threshold": 0.84,
+      "f1": 0.8485639686684073,
+      "precision": 0.8597883597883598,
+      "recall": 0.8376288659793815
+    },
+    {
+      "threshold": 0.85,
+      "f1": 0.8485639686684073,
+      "precision": 0.8597883597883598,
+      "recall": 0.8376288659793815
+    },
+    {
+      "threshold": 0.86,
+      "f1": 0.8496732026143791,
+      "precision": 0.8620689655172413,
+      "recall": 0.8376288659793815
+    },
+    {
+      "threshold": 0.87,
+      "f1": 0.8496732026143791,
+      "precision": 0.8620689655172413,
+      "recall": 0.8376288659793815
+    },
+    {
+      "threshold": 0.88,
+      "f1": 0.8481675392670157,
+      "precision": 0.8617021276595744,
+      "recall": 0.8350515463917526
+    },
+    {
+      "threshold": 0.89,
+      "f1": 0.8466579292267365,
+      "precision": 0.8613333333333333,
+      "recall": 0.8324742268041238
+    },
+    {
+      "threshold": 0.9,
+      "f1": 0.8451443569553806,
+      "precision": 0.8609625668449198,
+      "recall": 0.8298969072164949
+    }
+  ],
+  "error_analysis": {
+    "total_correct": 382,
+    "false_positives": 63,
+    "false_negatives": 57,
+    "fp_details": [
+      {
+        "patch_id": "patch_005196",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999995,
+        "logit": 12.175661,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003683",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999991,
+        "logit": 11.65662,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_001792",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999988,
+        "logit": 11.342641,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_004527",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999986,
+        "logit": 11.165998,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003659",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999985,
+        "logit": 11.132965,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_001665",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999979,
+        "logit": 10.766901,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002064",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999972,
+        "logit": 10.483907,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002929",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999962,
+        "logit": 10.172966,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000073",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.99996,
+        "logit": 10.115722,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_001332",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.99995,
+        "logit": 9.901518,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003663",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999941,
+        "logit": 9.745837,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002926",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999933,
+        "logit": 9.614914,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000688",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999927,
+        "logit": 9.524964,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000521",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999915,
+        "logit": 9.37892,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_004982",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999896,
+        "logit": 9.167654,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000074",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999882,
+        "logit": 9.043408,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000161",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999854,
+        "logit": 8.832455,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_001210",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999766,
+        "logit": 8.360382,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_001785",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999691,
+        "logit": 8.080914,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003759",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999669,
+        "logit": 8.013515,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003680",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999061,
+        "logit": 6.9699,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000680",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999047,
+        "logit": 6.954795,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000905",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.999022,
+        "logit": 6.92956,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000524",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.998947,
+        "logit": 6.855207,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003383",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.99862,
+        "logit": 6.584572,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003439",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.998597,
+        "logit": 6.567751,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_004751",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.998071,
+        "logit": 6.248835,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003160",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.997753,
+        "logit": 6.095891,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003913",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.995811,
+        "logit": 5.471117,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_004090",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.99536,
+        "logit": 5.368341,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_005761",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.994456,
+        "logit": 5.189466,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_006890",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.99412,
+        "logit": 5.130375,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003843",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.99396,
+        "logit": 5.103293,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000299",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.993605,
+        "logit": 5.04589,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_004091",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.991935,
+        "logit": 4.812092,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_001358",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.990139,
+        "logit": 4.609227,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_001641",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.989776,
+        "logit": 4.572739,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002560",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.989728,
+        "logit": 4.568059,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_004394",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.987787,
+        "logit": 4.392965,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003453",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.985238,
+        "logit": 4.200845,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_001485",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.98208,
+        "logit": 4.003741,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_004098",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.981536,
+        "logit": 3.97331,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000675",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.980568,
+        "logit": 3.92119,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000462",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.978218,
+        "logit": 3.804641,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002758",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.97628,
+        "logit": 3.717448,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_001170",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.975104,
+        "logit": 3.66784,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002245",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.973371,
+        "logit": 3.598755,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002558",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.973039,
+        "logit": 3.586047,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002526",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.972753,
+        "logit": 3.575193,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002793",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.969687,
+        "logit": 3.465394,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_005758",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.963885,
+        "logit": 3.284265,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000943",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.954374,
+        "logit": 3.040574,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002543",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.853737,
+        "logit": 1.764215,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003235",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.829271,
+        "logit": 1.58047,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_006663",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.822524,
+        "logit": 1.533545,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_005519",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.751494,
+        "logit": 1.106598,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_002295",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.740885,
+        "logit": 1.050576,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000258",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.671448,
+        "logit": 0.714741,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_000719",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.641061,
+        "logit": 0.579971,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003474",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.616127,
+        "logit": 0.473141,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_006436",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.609036,
+        "logit": 0.443261,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_001175",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.584975,
+        "logit": 0.343232,
+        "correct": false,
+        "error_type": "false_positive"
+      },
+      {
+        "patch_id": "patch_003184",
+        "true_label": 0,
+        "predicted_label": 1,
+        "probability": 0.558578,
+        "logit": 0.235392,
+        "correct": false,
+        "error_type": "false_positive"
+      }
+    ],
+    "fn_details": [
+      {
+        "patch_id": "patch_002026",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 1.9e-05,
+        "logit": -10.858637,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_004778",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 3e-05,
+        "logit": -10.421523,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000054",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 3.5e-05,
+        "logit": -10.254452,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_002267",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 4.1e-05,
+        "logit": -10.105029,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_005460",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 6.2e-05,
+        "logit": -9.681278,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000188",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.000175,
+        "logit": -8.649186,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000259",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.000229,
+        "logit": -8.383074,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_004814",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.00023,
+        "logit": -8.375069,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_003407",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.000248,
+        "logit": -8.301127,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_003645",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.00037,
+        "logit": -7.900599,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_001389",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.000375,
+        "logit": -7.887873,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_002320",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.000455,
+        "logit": -7.695196,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_004558",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.000571,
+        "logit": -7.467739,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_001864",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.000842,
+        "logit": -7.079412,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000503",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.000919,
+        "logit": -6.991003,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_004352",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.001096,
+        "logit": -6.81469,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000649",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.001341,
+        "logit": -6.613239,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_001859",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.001342,
+        "logit": -6.611904,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_003700",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.001436,
+        "logit": -6.544754,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000508",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.001683,
+        "logit": -6.385252,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_004493",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.001947,
+        "logit": -6.239333,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_003408",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.002247,
+        "logit": -6.096033,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_002093",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.002521,
+        "logit": -5.980503,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_004824",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.002559,
+        "logit": -5.965396,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_005461",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.002693,
+        "logit": -5.914518,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000726",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.003015,
+        "logit": -5.800986,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_002787",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.003621,
+        "logit": -5.617439,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_005256",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.004616,
+        "logit": -5.373704,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_005458",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.004948,
+        "logit": -5.303884,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_005231",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.006213,
+        "logit": -5.074893,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_007125",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.006645,
+        "logit": -5.007154,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_004538",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.006793,
+        "logit": -4.984993,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_002545",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.010252,
+        "logit": -4.569969,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000662",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.014827,
+        "logit": -4.196398,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_003428",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.02522,
+        "logit": -3.65458,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_001151",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.025661,
+        "logit": -3.636776,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_003176",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.029184,
+        "logit": -3.504511,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_003838",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.035965,
+        "logit": -3.288584,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_002010",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.043552,
+        "logit": -3.089265,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000273",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.044484,
+        "logit": -3.067133,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_001866",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.047565,
+        "logit": -2.99693,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000873",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.085771,
+        "logit": -2.366403,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000894",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.086033,
+        "logit": -2.363064,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_004767",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.100194,
+        "logit": -2.195068,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000728",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.108689,
+        "logit": -2.104205,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_006206",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.163635,
+        "logit": -1.631426,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_005241",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.189805,
+        "logit": -1.45128,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000187",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.21697,
+        "logit": -1.283413,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000053",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.219004,
+        "logit": -1.271479,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_004809",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.228118,
+        "logit": -1.218968,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_006900",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.241874,
+        "logit": -1.142434,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_000423",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.290255,
+        "logit": -0.894145,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_004103",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.296503,
+        "logit": -0.864005,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_002076",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.340012,
+        "logit": -0.663242,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_007074",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.343537,
+        "logit": -0.647573,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_002038",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.35888,
+        "logit": -0.58023,
+        "correct": false,
+        "error_type": "false_negative"
+      },
+      {
+        "patch_id": "patch_003839",
+        "true_label": 1,
+        "predicted_label": 0,
+        "probability": 0.454245,
+        "logit": -0.183533,
+        "correct": false,
+        "error_type": "false_negative"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "config": {
+    "architecture": "resnet18",
+    "temporal_strategy": "temporal_stack",
+    "in_channels": 108,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "epochs": 50,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "seed": 42,
+    "device": "cpu",
+    "pretrained": false
+  },
+  "best_val_metrics": {
+    "accuracy": 0.7895791583166333,
+    "precision": 0.8668407310704961,
+    "recall": 0.8601036269430051,
+    "f1": 0.8634590377113134,
+    "auc": 0.795359713879591,
+    "confusion_matrix": [
+      [
+        62,
+        51
+      ],
+      [
+        54,
+        332
+      ]
+    ]
+  },
+  "training_time_seconds": 8756.7,
+  "total_epochs_run": 37,
+  "best_epoch": 27,
+  "best_val_f1": 0.8634590377113134
+}
